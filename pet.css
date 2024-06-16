@@ -1,0 +1,552 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    color: #777777;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+}
+
+.navbar a{
+    color: white;
+    /* position: sticky; */
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.nav-link{
+    font-size: 12px;
+}
+
+#drop{
+    font-size: 12px;
+}
+
+.sect{
+    background: url(images/brianna-tucker-LGG5P7KCziU-unsplash.jpg);
+    height: 640px;
+    /* width: 1200px; */
+    background-size: cover;
+    position: relative;
+    /* width: 100%; */
+}
+
+.btn{
+    border-radius: 0;
+}
+
+#btnn{
+    padding: 0 10px;
+}
+
+.cont{
+    padding-left: 30px;
+    padding-top: 100px;
+}
+
+.myimage{
+    max-width: 100%;
+}
+
+#padding{
+    padding: 0;
+    margin-top: 50px;
+}
+
+#textt{
+    margin-top: 50px;
+    padding: 0 30px;
+}
+
+#myvid{
+    max-width: 100%;
+}
+
+#des{
+    display: block;
+}
+
+#over{
+    overflow-x: hidden;
+}
+
+#ppp{
+    text-align: center;
+    justify-content: center;
+}
+
+i:hover{
+    color: rgb(255, 174, 0);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#hv{
+    padding: 0;
+    margin: 0;
+}
+
+#hv:hover{
+    color: rgb(255, 213, 0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* #imggg{
+    background: url(images/andrew-s-ouo1hbizWwo-unsplash.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+} */
+
+#imgg{
+    max-width: 100%;
+    height: auto;
+}
+
+#imagecontainer{
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 174, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#lor{
+    font-size: 15px;
+}
+
+#btns a{
+    font-size: 13px;
+    font-weight: normal;
+    padding: 10px 30px;
+}
+
+#btns a:hover{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#pp{
+    font-size: 13px;
+}
+
+footer{
+    overflow: hidden;
+}
+
+#prps{
+    font-size: 16px;
+    padding: 1;
+    margin: 0;
+    color: black;
+}
+
+#prp{
+    font-size: 14px;
+    padding-bottom: 17px;
+}
+
+a{
+    text-decoration: none;
+    /* color: #777777; */
+}
+
+.cat-item img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cat-item{
+    margin: 20px 0;
+    display: inline-block;
+    position: relative;
+}
+
+.cat-item:hover .txtimg{
+    cursor: pointer;
+    background-color: color-mix(in srgb, black, transparent 80%);
+}
+
+.cat-item .txtimg{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* justify-content: center; */
+    align-items: end;
+    display: flex;
+    padding-left: 20px;
+}
+
+.cat-item .txtimg p{
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.cat-item:hover .txtimg p{
+    opacity: 1;
+    font-size: 20px;
+}
+
+#subject select option:hover{
+    cursor: pointer;
+}
+
+.frm{
+    display: inline;
+}
+
+#rqst{
+    padding: 10px 35px;
+}
+
+.ppp{
+    font-size: 12px;
+    padding: 15px 35px;
+}
+
+#sndrqst{
+    font-size: 12px;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+#blogbackground{
+    background-size: cover;
+    position: relative;
+}
+
+
+.overlay2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#anchortag{
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px 35px;
+}
+
+.overlays{
+    width: 90%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: relative;
+    top: 30px;
+    left: 17px;
+}
+
+.overlays:hover{
+    width: 90%;
+    height: 70%;
+    background-color: rgba(255, 174, 0, 0.8);
+    position: relative;
+    top: 30px;
+    left: 17px;
+    transition: 0.3s;
+}
+
+
+/* .image1{
+    background: url(images/krakenimages-376KN_ISplE-unsplash.jpg);
+    max-width: 100%;
+    height: auto;
+    width: 350px;
+} */
+
+.img1{
+    background: url(images/kelsey-chance-tAH2cA_BL5g-unsplash.jpg);
+    height: 213px;
+    width: 350px;
+    background-size: cover;
+}
+
+.img2{
+    background: url(images/cherrydeck-05gac-Qn0k4-unsplash.jpg);
+    height: 213px;
+    width: 350px;
+    background-size: cover;
+}
+
+.img3{
+    background: url(images/emiliano-vittoriosi-OFismyezPnY-unsplash\ \(1\).jpg);
+    height: 213px;
+    width: 350px;
+    background-size: cover;
+}
+
+#blogimg{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.social{
+    font-size: 20px;
+    font-weight: 570;
+    color: white;
+}
+
+.socsub{
+    color: white;
+    font-size: 14px;
+}
+
+.horizontal-line{
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.blog-tags{
+    /* display: flex; */
+    flex-direction: row;
+    padding: 0;
+    gap: 5px;
+}
+
+.blog-tags li{
+    display: inline-block;
+}
+
+.blog-tags .blog-li{
+    display: inline-block;
+}
+
+.blog-tg1{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    /* justify-content: end; */
+}
+
+
+.blog-tg1:hover{
+    color: rgba(255, 174, 0, 0.8);
+    transition: 0.3s;
+}
+
+#blog-input{
+    /* border-radius: 100px; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    flex: 1;
+
+}
+
+.sidebar form button{
+    color: white;
+    background-color: rgba(255, 174, 0, 0.8);
+
+    width: 20%;
+    float: left;
+    padding: 9px;
+}
+
+#blog-btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    right: 10px;
+    border: 0;
+    position: relative;
+}
+
+#blog-form{
+    /* display: flex; */
+    gap: 0;
+}
+
+.sidebar{
+    gap: 0;
+}
+
+.blog-srch{
+    border: 1px solid rgb(236, 236, 236);
+    
+}
+
+#hv2{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#blg-prof{
+    font-size: 14px;
+}
+
+.blg-icons{
+    color: black;
+}
+
+.blg-icons:hover{
+    color: rgba(255, 174, 0, 0.8);
+    transition: 0.3s;
+}
+
+.blg-btn-2{
+    border: 1px solid rgba(255, 174, 0, 0.8);
+    padding: 11px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: rgba(255, 174, 0, 0.8);
+}
+
+.info{
+    color: #777777;
+    font-size: 14px;
+}
+
+.info:hover{
+    color:  rgba(255, 174, 0, 0.8);
+    transition: 0.3s;
+}
+
+.e{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.view{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px 25px;
+}
+
+.view:hover{
+    background-color: rgba(255, 174, 0, 0.8);
+    color: white;
+    transition: 0.3s;
+}
+
+.tst{
+    justify-content: space-between;
+    display: flex;
+    color: #777777;
+    border-bottom: 1px dashed #c1c1c1;
+}
+
+.tst:hover{
+    padding-bottom: 0;
+    border-bottom: 1px dashed rgba(255, 174, 0, 0.8);
+    color: rgba(255, 174, 0, 0.8);
+    transition: 0.3s;
+}
+
+.ttt{
+    font-size: 12px;
+    border-radius: 0;
+}
+
+.ttt2{
+    color: white;
+    font-size: 12px;
+}
+
+.ttt2:hover{
+    color: white;
+}
+
+.btnsp{
+    font-size: 12px;
+    border: 1px solid #c1c1c1;
+    background-color: whitesmoke;
+}
+
+.btnsp:hover{
+    background-color: rgba(255, 174, 0, 0.8);
+    color: white;
+    transition: 0.3s;
+}
+
+#comment-a{
+    font-size: 12px;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+#comment-a:hover{
+    background-color: rgba(255, 174, 0, 0.8);
+    color: white;
+    transition: 0.3s;
+}
+
+.blg-frm{
+    padding: 8px;
+    font-size: 12px;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+#sndrqst2{
+    padding: 5px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+}
+
+#sndrqst2:hover{
+    border: 1px solid rgba(255, 174, 0, 0.8);
+    background: transparent;
+    color: rgba(255, 174, 0, 0.8);
+    transition: 0.3s;
+}
+
+.pagination{
+    justify-content: center;
+}
+
+.pagination a{
+    color: #777777;
+    font-size: 0.8rem;
+    padding: 8px 12px;
+}
+
+.pagination a.active{
+    background-color: rgba(255, 174, 0, 0.8);
+    color: white;
+}
+
+.pagination a:hover:not(active){
+    background-color: rgba(255, 174, 0, 0.8);
+    transition: 0.3s;
+    color: white;
+}
